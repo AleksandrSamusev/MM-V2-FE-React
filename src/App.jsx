@@ -1,16 +1,15 @@
-import Navbar from "./components/navbar/Navbar.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import HomePageGreeting from "./components/home_page_greeting/HomePageGreeting.jsx";
-import Footer from "./components/footer/Footer.jsx";
+import Homepage from "./pages/Homepage.jsx";
 
 function App() {
 
     return (
-        <>
-            <div className="container">
-                <HomePageGreeting />
-            </div>
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Homepage />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 
