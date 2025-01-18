@@ -1,0 +1,23 @@
+.footer {
+    background-color: #0F0F0F;
+    height: 10vh;
+}
+
+.footer-elements {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list-item {
+    color: white;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    list-style: none;
+    margin: 0 3rem;
+}
+
+

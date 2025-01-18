@@ -1,0 +1,86 @@
+.greeting-container {
+    height: 100vh;
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    color: white;
+    font-family: Antonio;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.main-paragraph {
+    color: white;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+.main-paragraph-promo {
+    color: white;
+    text-align: center;
+    font-family: Roboto, serif;
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 70%;
+    width: 90%;
+}
+
+.btn-group {
+    display: flex;
+    margin-top: 5rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.btn-right {
+    margin-right: 5rem;
+}
+
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 4rem;
+    }
+    .main-paragraph {
+        font-size: 1.5rem;
+    }
+    .main-paragraph-promo {
+        width: 85%;
+    }
+}
+
+@media (min-width: 912px) {
+    .main-title {
+        font-size: 5rem;
+    }
+    .main-paragraph {
+        font-size: 1.5rem;
+    }
+    .main-paragraph-promo {
+        width: 85%;
+    }
+}
+
+@media (min-width: 430px) {
+    .btn-group {
+        margin-top: 10rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main-title {
+        font-size: 5.5rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .main-title {
+        font-size: 6rem;
+    }
+}
