@@ -1,0 +1,61 @@
+.login-container {
+    display: flex;
+    height: 80vh;
+    background-color: #0F0F0F;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input {
+    font-family: Montserrat, serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    width: 425px;
+    height: 40px;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 7rem;
+}
+
+.login-input-password {
+    font-family: Montserrat, serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    width: 345px;
+    height: 40px;
+    color: black;
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white;
+}
+
+
+label {
+    font-family: Montserrat, serif;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.span-mandatory {
+    font-family: Montserrat, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    opacity: 60%;
+}
+
+.asterisk {
+    color: red;
+}
+
+svg {
+    background-color: #6EFF3C;
+    margin-top: 0.7rem;
+}

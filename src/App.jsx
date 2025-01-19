@@ -1,13 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Homepage from "./pages/Homepage.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
 
 function App() {
 
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path="/" element={<Homepage />} />
+                <Route exact path="/" element={<HomePage />} />
+                <Route exact path="/login" element={<LoginPage />} />
             </Routes>
         </BrowserRouter>
     )

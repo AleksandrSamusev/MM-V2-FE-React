@@ -5,7 +5,7 @@ const HomePageGreeting = () => {
     return (
         <div className="greeting-container">
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                <h1 className="main-title">MONEY MANAGER</h1>
+                <h1 style={{marginBottom: "5rem"}} className="main-title">MONEY MANAGER</h1>
                 <p className="main-paragraph">Simple app to manage you incomes and expenses.</p>
                 <br/>
                 <p className="main-paragraph-promo">To use the app please login as an existing user or create a new
