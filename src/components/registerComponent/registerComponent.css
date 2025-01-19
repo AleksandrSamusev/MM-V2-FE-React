@@ -1,0 +1,12 @@
+.div-for-input {
+    display: flex;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    justify-content: end;
+}
+
+@media (min-width: 1920px) {
+    .div-for-input {
+        margin-bottom: 2rem;
+    }
+}
