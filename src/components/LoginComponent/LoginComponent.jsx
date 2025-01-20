@@ -8,7 +8,7 @@ const LoginComponent = () => {
     return (
         <div className="login-container">
             <div className="div-main">
-                <h1 className="main-title">Login</h1>
+                <h1 className="main-title-login">Login</h1>
                 <div className="div-for-input">
                         <LabelWithAsterisk for={"username"} value={"Username"}/>
                         <InputLoginNoSVG/>

@@ -30,54 +30,71 @@
     color: white;
     margin-bottom: 5rem;
 }
-
 @media (min-width: 768px) {
     .main-title-register {
         font-size: 4rem;
+        margin-bottom: 4rem;
+        margin-top: 8rem
+    }
+}
+
+@media (min-width: 820px) {
+    .main-title-register {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .main-title-register {
+        font-size: 4rem;
+        margin-bottom: 6rem
     }
 }
 
 @media (min-width: 1280px) {
     .main-title-register {
-        margin-top: 0.25rem;
-        margin-bottom: 0rem;
+        margin-top: 3.25rem;
+        margin-bottom: 1rem;
    }
 }
 
 @media (min-width: 1440px) {
     .main-title-register {
-        margin-top: 3.5rem;
-        margin-bottom: 1rem;
+        margin-top: 6.5rem;
+        margin-bottom: 2rem;
     }
     .span-mandatory-register {
-        margin-bottom: 3.5rem;
+        margin-bottom: 4.5rem;
     }
 }
 
 @media (min-width: 1920px) {
     .main-title-register {
-        margin-top: 7rem;
-        font-size: 5rem;
+        margin-top: 10rem;
+        font-size: 6rem;
     }
     .span-mandatory-register {
-        margin-bottom: 5rem;
+        margin-bottom: 6rem;
     }
 }
 
 @media (1180px <= height <= 1400px ) and (820px <= width <= 1200px) {
     .main-title-register {
-        margin-top: 10rem;
-        font-size: 5rem;
+        margin-top: 13rem;
+        font-size: 6rem;
     }
 }
 
 @media (min-width: 2300px) {
     .main-title-register {
-        margin-top: 10rem;
-        margin-bottom: 4rem;
+        margin-top: 13rem;
+        margin-bottom: 5rem;
         font-size: 6rem;
     }
     .span-mandatory-register {
-        margin-bottom: 6rem;
+        margin-bottom: 7rem;
     }
 }

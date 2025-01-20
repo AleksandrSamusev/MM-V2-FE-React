@@ -9,7 +9,7 @@ const RegisterComponent = () => {
         <div className="login-container">
             <div className="div-main-register">
                 <h1 className="main-title-register">Sign Up</h1>
-                <div style={{marginTop:"3rem", marginBottom: "1rem"}}>
+                <div>
                     <div className="div-for-input-register">
                         <LabelWithAsterisk for={"firstname"} value={"First name"}/>
                         <InputLoginNoSVG/>
