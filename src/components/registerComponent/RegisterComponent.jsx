@@ -7,33 +7,35 @@ import "./registerComponent.css"
 const RegisterComponent = () => {
     return (
         <div className="login-container">
-            <div className="div-main">
-                <h1 className="main-title">Sign Up</h1>
-                <div className="div-for-input">
-                    <LabelWithAsterisk for={"firstname"} value={"First name"}/>
-                    <InputLoginNoSVG />
+            <div className="div-main-register">
+                <h1 className="main-title-register">Sign Up</h1>
+                <div style={{marginTop:"3rem", marginBottom: "1rem"}}>
+                    <div className="div-for-input-register">
+                        <LabelWithAsterisk for={"firstname"} value={"First name"}/>
+                        <InputLoginNoSVG/>
+                    </div>
+                    <div className="div-for-input-register">
+                        <LabelWithAsterisk for={"lastname"} value={"Last name"}/>
+                        <InputLoginNoSVG/>
+                    </div>
+                    <div className="div-for-input-register">
+                        <LabelWithAsterisk for={"username"} value={"Username"}/>
+                        <InputLoginNoSVG/>
+                    </div>
+                    <div className="div-for-input-register">
+                        <LabelWithAsterisk for={"email"} value={"E-mail"}/>
+                        <InputLoginNoSVG/>
+                    </div>
+                    <div className="div-for-input-register">
+                        <LabelWithAsterisk for={"password"} value={"Password"}/>
+                        <InputForPassword/>
+                    </div>
+                    <div className="div-for-input-register">
+                        <LabelWithAsterisk for={"confirm"} value={"Confirm"}/>
+                        <InputForPassword/>
+                    </div>
                 </div>
-                <div className="div-for-input">
-                    <LabelWithAsterisk for={"lastname"} value={"Last name"}/>
-                    <InputLoginNoSVG />
-                </div>
-                <div className="div-for-input">
-                    <LabelWithAsterisk for={"username"} value={"Username"}/>
-                    <InputLoginNoSVG />
-                </div>
-                <div className="div-for-input">
-                    <LabelWithAsterisk for={"email"} value={"E-mail"}/>
-                    <InputLoginNoSVG />
-                </div>
-                <div className="div-for-input">
-                    <LabelWithAsterisk for={"password"} value={"Password"}/>
-                    <InputForPassword />
-                </div>
-                <div className="div-for-input">
-                    <LabelWithAsterisk for={"confirm"} value={"Confirm"}/>
-                    <InputForPassword />
-                </div>
-                <span className="span-mandatory">Mandatory fields marked with<span className="asterisk"> *</span></span>
+                <span className="span-mandatory-register">Mandatory fields marked with<span className="asterisk"> *</span></span>
                 <BtnLoginHome title={"Sign Up"}/>
             </div>
         </div>

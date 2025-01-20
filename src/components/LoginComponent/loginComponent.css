@@ -1,9 +1,6 @@
 .login-container {
-    display: flex;
-    height: 80vh;
+    height: calc(100vh - 5rem);
     background-color: #0F0F0F;
-    align-items: center;
-    justify-content: center;
 }
 
 label {
@@ -30,13 +27,27 @@ svg {
 
 .div-for-input {
     display: flex;
-    margin-bottom: 3rem;
-    width: 100%;
-    justify-content: end;
+    margin-bottom: 1.3rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 36rem;
 }
 
 .div-main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1920px) {
+    .div-for-input {
+        margin-bottom: 1.8rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .div-for-input {
+        margin-bottom: 2.5rem;
+    }
 }

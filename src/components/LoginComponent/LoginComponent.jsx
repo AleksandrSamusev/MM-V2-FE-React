@@ -10,12 +10,12 @@ const LoginComponent = () => {
             <div className="div-main">
                 <h1 className="main-title">Login</h1>
                 <div className="div-for-input">
-                    <LabelWithAsterisk for={"username"} value={"Username"}/>
-                    <InputLoginNoSVG />
+                        <LabelWithAsterisk for={"username"} value={"Username"}/>
+                        <InputLoginNoSVG/>
                 </div>
                 <div className="div-for-input">
-                    <LabelWithAsterisk for={"password"} value={"Password"}/>
-                    <InputForPassword />
+                        <LabelWithAsterisk for={"password"} value={"Password"}/>
+                        <InputForPassword/>
                 </div>
                 <span className="span-mandatory">Mandatory fields marked with<span className="asterisk"> *</span></span>
                 <BtnLoginHome title={"Login"}/>
