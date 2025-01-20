@@ -1,9 +1,10 @@
 import "./btnLoginHome.css"
 
 const BtnLoginHome = (props) => {
+
     return (
         <div className="btn">
-            <span className="btn-span">{props.title}</span>
+            <a href={props.path} className="btn-span">{props.title}</a>
         </div>
     )
 }

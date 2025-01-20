@@ -3,15 +3,11 @@ import "./footer.css"
 const Footer = () => {
     return (
         <>
-            <ul className="footer">
-                <div className="container">
-                    <div className="footer-elements">
-                        <li className="footer-list-item">frilenseri.purs.gov.rs</li>
-                        <li className="footer-list-item">eID.gov.rs</li>
-                        <li className="footer-list-item">www.nbs.rs</li>
-                    </div>
-                </div>
-            </ul>
+            <div className="footer">
+                <a href="https://frilenseri.purs.gov.rs/" className="footer-list-item">frilenseri.purs.gov.rs</a>
+                <a href="https://eid.gov.rs/en-US/start" className="footer-list-item">eID.gov.rs</a>
+                <a href="https://www.nbs.rs/en/indeks/index.html" className="footer-list-item">nbs.rs</a>
+            </div>
         </>
     )
 }

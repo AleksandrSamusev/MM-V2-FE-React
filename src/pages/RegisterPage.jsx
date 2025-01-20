@@ -4,8 +4,10 @@ import RegisterComponent from "../components/registerComponent/RegisterComponent
 const RegisterPage = () => {
     return (
 <>
-    <Navbar />
-    <RegisterComponent />
+    <div className="container">
+        <Navbar />
+        <RegisterComponent />
+    </div>
 </>
     )
 }

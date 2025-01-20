@@ -1,6 +1,6 @@
 import BtnLoginHome from "../buttons/home_login_button/BtnLoginHome.jsx";
 import "./loginComponent.css"
-import InputWithSVG from "../InputWithSVG/InputWithSVG.jsx";
+import InputForPassword from "../InputWithSVG/InputForPassword.jsx";
 import InputLoginNoSVG from "../inputLoginNoSVG/InputLoginNoSVG.jsx";
 import LabelWithAsterisk from "../labels/labelWithAsterisk/LabelWithAsterisk.jsx";
 
@@ -15,7 +15,7 @@ const LoginComponent = () => {
                 </div>
                 <div className="div-for-input">
                     <LabelWithAsterisk for={"password"} value={"Password"}/>
-                    <InputWithSVG />
+                    <InputForPassword />
                 </div>
                 <span className="span-mandatory">Mandatory fields marked with<span className="asterisk"> *</span></span>
                 <BtnLoginHome title={"Login"}/>

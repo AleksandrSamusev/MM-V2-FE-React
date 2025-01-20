@@ -9,14 +9,15 @@
 
 .main-title {
     color: white;
-    font-family: Antonio;
+    font-family: Antonio, serif;
     font-size: 3rem;
+    font-weight: 400;
     margin-bottom: 3rem;
 }
 
 .main-paragraph {
     color: white;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-size: 1rem;
     font-weight: 300;
 
@@ -43,9 +44,15 @@
     margin-right: 5rem;
 }
 
+@media (min-width: 430px) {
+    .btn-group {
+        margin-top: 10rem;
+    }
+}
+
 @media (min-width: 768px) {
     .main-title {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .main-paragraph {
         font-size: 1.5rem;
@@ -57,7 +64,7 @@
 
 @media (min-width: 912px) {
     .main-title {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .main-paragraph {
         font-size: 1.5rem;
@@ -67,15 +74,9 @@
     }
 }
 
-@media (min-width: 430px) {
-    .btn-group {
-        margin-top: 10rem;
-    }
-}
-
 @media (min-width: 1440px) {
     .main-title {
-        font-size: 5.5rem;
+        font-size: 4.5rem;
     }
 }
 

@@ -1,6 +1,6 @@
 import LabelWithAsterisk from "../labels/labelWithAsterisk/LabelWithAsterisk.jsx";
 import InputLoginNoSVG from "../inputLoginNoSVG/InputLoginNoSVG.jsx";
-import InputWithSVG from "../InputWithSVG/InputWithSVG.jsx";
+import InputForPassword from "../InputWithSVG/InputForPassword.jsx";
 import BtnLoginHome from "../buttons/home_login_button/BtnLoginHome.jsx";
 import "./registerComponent.css"
 
@@ -8,7 +8,7 @@ const RegisterComponent = () => {
     return (
         <div className="login-container">
             <div className="div-main">
-                <h1 className="main-title">Register</h1>
+                <h1 className="main-title">Sign Up</h1>
                 <div className="div-for-input">
                     <LabelWithAsterisk for={"firstname"} value={"First name"}/>
                     <InputLoginNoSVG />
@@ -27,14 +27,14 @@ const RegisterComponent = () => {
                 </div>
                 <div className="div-for-input">
                     <LabelWithAsterisk for={"password"} value={"Password"}/>
-                    <InputWithSVG />
+                    <InputForPassword />
                 </div>
                 <div className="div-for-input">
                     <LabelWithAsterisk for={"confirm"} value={"Confirm"}/>
-                    <InputWithSVG />
+                    <InputForPassword />
                 </div>
                 <span className="span-mandatory">Mandatory fields marked with<span className="asterisk"> *</span></span>
-                <BtnLoginHome title={"Register"}/>
+                <BtnLoginHome title={"Sign Up"}/>
             </div>
         </div>
     )
