@@ -4,6 +4,7 @@ import "./App.css";
 import HomePage from "./pages/HomePage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import RegisterPage from "./pages/RegisterPage.jsx";
+import DashboardPage from "./pages/DashboardPage.jsx";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
                 <Route exact path="/" element={<HomePage />} />
                 <Route exact path="/login" element={<LoginPage />} />
                 <Route exact path="/signup" element={<RegisterPage />} />
+                <Route exact path="/dashboard" element={<DashboardPage />} />
             </Routes>
         </BrowserRouter>
     )
