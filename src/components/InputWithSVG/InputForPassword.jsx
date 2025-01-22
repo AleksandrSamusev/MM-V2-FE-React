@@ -14,7 +14,7 @@ const InputForPassword = () => {
             <div style={{display: "flex"}}>
                 <input className="login-input-password" type={!clicked ? "password" : "text"} name="password"
                        id="password"/>
-                <div className={"svg-div " + (!clicked ? 'green' : 'yellow')} onClick={handleClick}>
+                <div className={"svg-div " + (!clicked ? 'btn-green' : 'btn-yellow')} onClick={handleClick}>
                     {!clicked ? <span className="span-status-show">SHOW</span> :
                         <span className="span-status-show">HIDE</span>}
                 </div>

@@ -1,0 +1,74 @@
+.div-card-manager {
+    display: flex;
+    width: 100%;
+    border: 1px solid #FFFFFF31;
+    transition: box-shadow 0.3s;
+}
+
+.div-inner-left-manager-first {
+    height: 100px;
+    background-color: white;
+    min-width: 150px;
+    font-family: Antonio, serif;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color: #322424;
+}
+
+.div-inner-right-manager-first {
+    height: 100px;
+    width: calc(100% - 150px);
+    font-family: Montserrat, serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: start;
+    padding: 1.75rem 0.75rem 0;
+}
+
+.div-inner-left-manager-second {
+    height: 100px;
+    background-color: white;
+    width: 50%;
+    font-family: Antonio, serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    padding-top: 1.5rem;
+    background-color: #322424;
+}
+
+.div-inner-right-manager-second {
+    height: 100px;
+    width: 50%;
+    font-family: Antonio, serif;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 1rem 1rem 0;
+}
+
+.dark-blue-background {
+    background-color: #111E2B;
+}
+
+.dark-red-background {
+    background-color: #581919;
+}
+
+.svg {
+    margin: 0;
+    background-color: transparent;
+}
+
+td {
+    padding: 0.5rem;
+}
+.cell-blue {
+    background-color: #7FABED23;
+}
+
+.cell-brown {
+    background-color: #81787840;
+}

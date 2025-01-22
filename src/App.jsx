@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import RegisterPage from "./pages/RegisterPage.jsx";
 import DashboardPage from "./pages/DashboardPage.jsx";
+import ManagerPage from "./pages/ManagerPage.jsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
                 <Route exact path="/login" element={<LoginPage />} />
                 <Route exact path="/signup" element={<RegisterPage />} />
                 <Route exact path="/dashboard" element={<DashboardPage />} />
+                <Route exact path="/manager" element={<ManagerPage />} />
             </Routes>
         </BrowserRouter>
     )
