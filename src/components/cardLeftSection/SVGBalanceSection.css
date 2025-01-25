@@ -1,0 +1,16 @@
+
+.span-current-balance-title {
+    font-size: 0.85rem;
+}
+
+.span-current-balance-value {
+    font-size: 2.5rem;
+}
+
+
+.div-svg-balance-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}

@@ -1,0 +1,19 @@
+.div-quarter-month {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 0.25rem;
+}
+
+.div-quarter {
+    text-align: center;
+    padding: 0.25rem 0;
+    background-color: #2C4370;
+}
+
+.div-month {
+    width: 33.33%;
+    text-align: center;
+    padding: 0.25rem 0;
+    background-color: #322424;
+}

@@ -1,0 +1,23 @@
+.div-table {
+    display: flex;
+    margin-top: 3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cell-end-align {
+    text-align: end;
+}
+
+.cell-title-with-background {
+    background-color: #D0D0D014;
+}
+
+.cell-text-red-with-background-end-align {
+    text-align: end;
+    background-color: #D0D0D014;
+    color: firebrick;
+}

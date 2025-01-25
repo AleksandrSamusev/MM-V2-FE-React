@@ -1,0 +1,12 @@
+.calendar-section-title {
+    color: white;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.common-quarter-month-div {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 0.25rem;
+    font-weight: 500;
+}
