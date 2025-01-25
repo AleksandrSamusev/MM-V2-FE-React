@@ -6,7 +6,7 @@ import TableSection from "./TableSection.jsx";
 const CardLeftSection = () => {
     return (
         <div className="whole-card-left-section">
-            <div className="div-card-manager">
+            <div className="div-card-manager-left">
                 <div className="div-inner-left-manager-first ">2025</div>
                 <div className="div-inner-right-manager-first">Manage your expenses and incomes in 2025.</div>
             </div>
